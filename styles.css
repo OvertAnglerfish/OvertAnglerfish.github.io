@@ -1,0 +1,82 @@
+.my-name {
+    text-align: center;
+    font-family: "Courier New", sans, sans-serif;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 5px;
+    color: #F5F5DC;
+}
+
+.external-link {
+    text-align: center;
+    font-family: "Courier New", sans, sans-serif;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    color: #F5F5DC;
+}
+
+a {
+    color: inherit;
+}
+
+.section-title {
+    text-align: center;
+    font-family: "Courier New", sans, sans-serif;
+    font-size: 25px;
+    color: #F5F5DC;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+body {
+    padding: 3em 5em;
+}
+
+.white-background {
+    padding: 0.5em;
+    background-color: #F5F5DC;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+    ), url('images/river.jpg') fixed;
+    background-size: 100%;
+    filter: alpha(opacity=80);
+    z-index: -10;
+}
+
+#projects-carousel {
+    text-align: center;
+}
+
+.carousel-image {
+    text-align: center;
+    width: 100%;
+    height: 300px;
+}
+
+h4 {
+    padding: 0.5em;
+    margin: 1em;
+}
