@@ -78,6 +78,19 @@ body {
     max-height: 100%;
 }
 
+.carousel-caption {
+	text-align: center;
+    font-family: "Courier New", sans, sans-serif;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px;
+    color: #F5F5DC;
+}
+
 h4 {
     padding: 0.5em;
     margin: 1em;
